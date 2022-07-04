@@ -1,0 +1,17 @@
+.ant-layout-sider {
+    background-color: blueviolet;
+}
+.container {
+    background-color: aqua;
+}
+.ant-layout-content {
+    width: 1026px;
+    background-color: blue;
+}
+.ant-layout {
+    width: 1366px;
+    height: 768px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
