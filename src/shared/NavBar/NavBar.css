@@ -1,0 +1,15 @@
+.navBarContainer {
+    width: 100px;
+    height: 768px;
+    background-color: #F5F9FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBarInner{
+    width: 70px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
