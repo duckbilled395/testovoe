@@ -1,0 +1,73 @@
+.SettingsMenuContainer {
+    min-width: 240px;
+    height: 768px;
+    background-color: #F5F9FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    position: relative;
+}
+.settingsContainerInner {
+    width: 192px;
+    height: 720px;
+}
+.settingsTitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #AFB6C6;
+    height: 20px;
+}
+.iconSettings{
+    margin-right: 13px;
+}
+.settingsOptionTitle {
+    display: flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #1E212A;
+}
+.settingsOption {
+    width: 192px;
+    height: 20px;
+    margin-top: 16px;
+}
+.settingsMenuTitle{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #00A0EC;
+}
+.settingsMenuList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.settingsMenuListItem{
+    margin: 16px 0 0 32px;
+}
+.settingsMenuListItem a{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    color: #1E212A;
+    text-decoration: none;
+}
+.collapseBtn {
+    /*display: block;*/
+    position: absolute;
+    z-index: 10;
+    top: 78px;
+    left: 200px;
+}
+.box {
+    position: relative;
+}

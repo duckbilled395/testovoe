@@ -1,0 +1,30 @@
+.NavMenuItemBox{
+    margin: 0;
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleBox{
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    color: #AFB6C6;
+    text-align: center;
+}
+.imgBox svg path{
+    fill: #AFB6C6;
+    transition: .5s;
+}
+.imgBox svg path:hover{
+    fill: #00A0EC;
+    transition: .5s;
+}
